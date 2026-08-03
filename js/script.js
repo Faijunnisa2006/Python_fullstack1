@@ -32,3 +32,29 @@ registerForm.addEventListener("submit",function(event){
     console.log("Email:",email);
     console.log("Password:",password);
 })
+
+
+
+
+
+//write a function to square a number
+
+
+function squareNumber(num){
+    return num * num;
+}
+x=squareNumber(5);
+console.log("square of 5 is:",x)
+
+
+//write a function to odd or even number
+function checkOddEven(num){
+    if (num % 2 == 0){
+        return "Even"
+    } else {
+        return "Odd"
+    }
+}
+console.log("check if 7 is odd or even:",checkOddEven(7));
+
+
